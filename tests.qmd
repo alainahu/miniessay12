@@ -1,0 +1,12 @@
+---
+title: "Tests"
+author: 
+  - Alaina Hu
+date: today
+date-format: long
+format: pdf
+number-sections: true
+---
+
+Below are some of the tests I would place in terms of the dataset, the model,
+and the predictions. For the dataset, I would check for missing data/null values and the correct classes of each variable for analysis, and I would make sure there are no data entry errors are made by checking for outliers. For the model, I would also test for class, the number of observations, and the coefficients. To ensure replicability, I would also set a seed for my model. When predicting, we should make sure we don't overfit the data. Confusion matrices can use our test datasets to evaluate the model's prediction ability. A key part of testing models is to make sure we have randomly constructed training and test sets. 
